@@ -15,7 +15,7 @@ export const connectEthereum = async () => {
 		};
 	}
 
-	window.location.reload();
+	// window.location.reload();
 
 	const provider = new ethers.providers.Web3Provider(window.ethereum);
 	const signer = provider.getSigner();
