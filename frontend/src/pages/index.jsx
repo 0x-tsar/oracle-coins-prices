@@ -118,8 +118,8 @@ export default function Home() {
 
 			{!metamaskActivated ? (
 				<Modal>
-					Activate Metamask on Mumbai Network to check the cryto prices comming
-					from Chainlink
+					Activate Metamask on Mumbai Network and REFRESH THE PAGE to check the
+					crypto prices comming from Chainlink
 				</Modal>
 			) : (
 				<Panel>
